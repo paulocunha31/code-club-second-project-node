@@ -91,7 +91,7 @@ app.patch('/users/:id', checkRequestsId, checkMethodAndUrl, (request, response) 
     const newRequests = requests.filter(item => item.id === id)
 
     newRequests.forEach(updateStatus => {
-        updateStatus.status = "pronto"
+        updateStatus.status = "Pronto"
 
         requests[index] = updateStatus
 
